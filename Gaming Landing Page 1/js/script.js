@@ -1,15 +1,12 @@
-// event pada saat link di klik
-$('.page-scroll').on('click', function(e){
+$('.page-scroll').on('click', function(e) {
 
     var tujuan = $(this).attr('href');
 
     var elemenTujuan = $(tujuan);
 
-
-    $('body').animate({
-        scrollTop: elemenTujuan.offset().top - 50
-    }, 1000);
+    $('html , body').animate({
+    scrollTop: elemenTujuan.offset().top - 60
+    }, 1500, 'easeInOutExpo');
 
     e.preventDefault();
-
 });

@@ -352,14 +352,11 @@ h1{
 }
 
 
-.faq-content h4{
+.faq-content details{
     margin-bottom: 10px;
 }
-
-.faq-content p{
+.faq-content summary{
     margin-bottom: 10px;
-    font-size: 14px;
-    color: lightgrey;
 }
 
 .faq hr{
