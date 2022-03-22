@@ -250,4 +250,293 @@
     font-weight: 300;
     font-size: 27px;
 }
-/* end visi misi */
+/* End Visi Misi */
+
+/* Main 3 */
+.main3{
+    height: 85vh;
+    width: 90%;
+    margin: auto;
+    margin-top: -5rem;
+}
+
+.main3-header{
+    display: flex;
+
+}
+
+.main-header-title{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.main-header-title h1{
+    font-size: 40px;
+}
+
+.container-arrow {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-arrow button {
+    border: none;
+    background: transparent;
+}
+
+.container-arrow button:nth-child(2){
+    transform:rotate(180deg);
+    margin-left: 20px;
+}
+
+
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: var(--warna-valet-5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.circle:hover{
+    background-color: var(--warna-valet-1);
+}
+
+.circle svg{
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
+
+.main3-content {
+    height: 30vw;
+    margin-top: 30px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.container13{
+    display: flex;
+    margin-top: 30px;
+    width: 140vw;
+}
+
+.card{
+    width: 18rem;
+    text-align: center;
+    padding: 40px 18px;
+    box-sizing: border-box;
+    box-shadow:  0 13px 23px #0c5c9e;
+    border-radius: 5px;
+    margin: 0 35px;
+    cursor: pointer;
+}
+
+.card .img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgba(0, 153, 255, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.card .img svg{
+    width: 70%;
+    fill: var(--warna-valet-5);
+}
+
+.card h1{
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.wrap-p2{
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.wrap-p2 p{
+    font-size: 0.9rem;
+}
+
+.card:hover{
+    background-color:var(--warna-valet-1);
+    color: white;
+    transition: 0.2s;
+}
+
+.card:hover .img{
+    background: white;
+    transition: 0.2s
+}
+/* End Main 3 */    
+
+/* Kejuruan */
+.container-kejuruan{
+    margin-top: 100px;
+}
+
+.container-kejuruan h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.kejuruan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 7px;
+}
+
+.kejuruan-card{
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.kejuruan-card img{
+    width: 39vw;
+    height: 49vh;
+    border-radius: 7px;
+    position: absolute;
+    z-index: -1;
+}
+
+.kejuruan-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #79ddfd33;
+    width: 39vw;
+    height: 49vh;
+    border-radius: 7px;
+    font-size: 22px;
+    position: absolute;
+    transition: 0,3s;
+}
+
+.kejuruan-hover{
+    display: flex;
+    height: 0;
+    overflow: hidden;
+    color: white;
+    background-color: #79ddfd33;
+    width: 39vw;
+    border-radius: 7px;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.coba1{
+    width: 39vw;
+    height: 49vh;
+    transition: 0.3s;
+}
+
+.kejuruan-container{
+    width: 80%;
+}
+
+.kejuruan-hover p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.kejuruan-card:hover .kejuruan-text{
+    display: none;
+}
+
+.kejuruan-card:hover .kejuruan-hover{
+    background-color: rgba(31, 145, 180, 0.75);
+    height: 49vh;
+}
+
+.kejuruan-card:hover .coba1{
+    height: 0;
+}
+/* End Kejuruan */
+
+/* Prestasi Sekolah */
+.main4 h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container16{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.container16 button{
+    width: 5%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.container16 button svg{
+    width: 50px;
+    height: 50px;
+    stroke: black;
+}
+
+.container16 button:last-child{
+    transform: rotate(180deg);
+}
+
+.container-main5{
+    margin-top: 30px;
+    overflow: hidden;
+    height: 80vh;
+    width: 90%;
+}
+
+.berita{
+    display: flex;
+    width: 135vw;
+}
+
+.box-berita{
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px grey;
+    box-sizing: border-box;
+    margin: 0 30px;
+}
+
+.box-berita h3{
+    font-size: 25px;
+}
+
+.box-berita p{
+    font-size: 15px;
+}
+
+.box-berita img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.berita-text{
+    padding: 15px 30px 35px 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* End Prestasi Sekolah */
