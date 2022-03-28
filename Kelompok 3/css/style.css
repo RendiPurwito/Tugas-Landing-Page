@@ -228,14 +228,14 @@
     fill: rgba(0, 153, 255, 0.75);
 }
 
-.viai-misi{
+.visi-misi{
     background: rgba(0, 153, 255, 0.75);
     margin-top:-6.4px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center
+    text-align: center;
 }
 
 .container-visi{
@@ -478,7 +478,7 @@
 }
 
 .container16{
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
 }
@@ -504,12 +504,13 @@
     margin-top: 30px;
     overflow: hidden;
     height: 80vh;
-    width: 90%;
+    width: 100%;
+    scroll-behavior: smooth;
 }
 
 .berita{
     display: flex;
-    width: 135vw;
+    width: 175vw;
 }
 
 .box-berita{
@@ -539,4 +540,139 @@
     text-align: center;
 }
 
+.container90{
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+}
+
+.container90 .continue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px grey;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.container90 .continue h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.container90 .continue svg{
+    transform: rotate(180deg);
+    width: 50px;
+    height: 50px;
+}
+
+.container90 .continue:hover{
+    background-color: var(--warna-valet-1);
+    color: white;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+
 /* End Prestasi Sekolah */
+
+/* Dukungan Industri */
+    .dukungan h1{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .wrap-dukungan{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 90%;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .wrap-dukungan img{
+        width: 15vw;
+        margin: auto;
+    }
+/* End Dukungan Industri */
+
+/* Footer */
+    .footer{
+        background-color: var(--warna-valet-3);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrap-footer{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        padding: 50px 0;
+    }
+
+    .left-side{
+        width: 50%;
+    }
+
+    .left-side p{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+    .left-side .text1{
+        width: 80%;
+    }
+
+    .center-side{
+        width: 20%;
+    }
+
+    .footer-link ul{
+        list-style: none;
+    }
+
+    .footer-link ul li a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .right-side{
+        width: 30%;
+    }
+
+    .right-side .img{
+        display: flex;
+        margin: 10px;
+    }
+
+    .right-side button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: var(--warna-valet-5);
+        border-radius: 50%;
+        box-sizing:  border-box;
+        padding: 10px;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+
+    .right-side svg{
+        width: 25px;
+        height: 25px;
+        color: white;
+    }
+
+/* End Footer */

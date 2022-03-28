@@ -2,27 +2,26 @@
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
-    text-decoration: none;
+    /* text-decoration: none; */
     color: white;
 }
 
-h1{
+h1 {
     margin: 0px 0px 30px 50px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     background-color: #021220;
     text-align: center;
     align-items: center;
     width: 100%;
     height: 9vh;
-    font-family: arial;
     position: fixed;
     z-index: 1;
 }
 
-.navbar img{
+.navbar img {
     width: 250px;
     margin-left: -20px;
 }
@@ -31,129 +30,124 @@ h1{
     list-style: none;
     display: flex;
     width: 100%;
-    justify-content: flex-end;
     gap: 90px;
 }
 
 .navbar ul li a {
-    display: block;
     font-size: 25px;
 }
 
-.navbar ul li a:hover{
+.navbar ul li a:hover {
     text-decoration: underline;
     text-decoration-color: #940202;
     transition: 1s;
 }
 
-.main-1{
+.main-1 {
     display: flex;
     background-color: #041e36;
-    height: 600px;
+    height: 100vh;
     padding-top: 50px;
 }
 
-.main-1-content{
-    margin: 60px 0px 60px 80px;
-    width: 800px;
+.main-1-content {
+    margin: 60px 0 60px 80px;
+    width: 63vw;
 }
 
-.main-1-content img{
-    width: 800px;
+.main-1-content img {
+    width: 63vw;
     border-radius: 5px;
 }
 
-.main-1-content img:hover{
+.main-1-content img:hover {
     background-color: black;
     opacity: 55%;
     transition: 0.5s;
 }
 
-.main-1-content .text{
+.main-1-content .text {
     position: absolute;
     width: 400px;
     margin: -180px 0px 0px 50px;
 }
 
 
-.button .button-1 button{
+.button .button-1 button {
     border: 2px solid white;
     background-color: transparent;
     padding: 15px;
     border-radius: 5px;
-    font-size:medium;
+    font-size: medium;
     position: absolute;
     margin: -75px 0px 0px 50px;
 }
 
-.button .button-2 button{
+.button .button-2 button {
     border: none;
     background-color: transparent;
     padding: 15px;
     border-radius: 5px;
-    font-size:medium;
+    font-size: medium;
     position: absolute;
     margin: -75px 0px 0px 160px;
 }
 
-.main-1-content button:hover{
+.main-1-content button:hover {
     background-color: white;
     color: black;
     transition: 0.5s;
     cursor: pointer;
 }
 
-.main-1-list{
+.main-1-list {
     margin: 60px 0px 0px 30px;
 }
 
-.main-1-list .list{
+.main-1-list .list {
     display: flex;
 }
 
-.main-1-list .list a{
-    text-decoration: none;
-}
 
-.list-img{
+.list-img {
     margin: 0px;
     width: 150px;
     height: 122px;
 }
 
-.list-img img{
+.list-img img {
     width: 150px;
     border-radius: 5px;
 }
 
-.list-img img:hover{
+.list-img img:hover {
     background-color: black;
     opacity: 55%;
     transition: 0.3s;
     cursor: pointer;
 }
 
-.list-title{
+.list-title {
     padding: 5px;
 }
 
-.list-title h4{
+.list-title h4 {
     margin-bottom: 10px;
     cursor: pointer;
 }
 
-.main-2{
+.main-2 {
     background-color: #041e36;
     height: 1400px;
 }
 
-.main-2 .news-list{
+.main-2 .news-list {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.main-2 .news{
+.main-2 .news {
     background-color: #03223f;
     box-shadow: 2px 0px 5px black;
     border-radius: 5px;
@@ -162,54 +156,54 @@ h1{
     margin: 15px;
 }
 
-.main-2 .news img{
+.main-2 .news img {
     width: 500px;
     border-radius: 5px;
 }
 
-.main-2 .news img:hover{
+.main-2 .news img:hover {
     background-color: black;
     opacity: 55%;
     transition: 0.5s;
     cursor: pointer;
 }
 
-.main-2 .news-content{
+.main-2 .news-content {
     text-align: center;
     padding: 10px;
 }
 
-.news-content .title{
+.news-content .title {
     display: flex;
     justify-content: left;
 }
 
-.news-content .title h4{
+.news-content .title h4 {
     margin: 0px 5px;
 }
 
-.news-content .title p{
+.news-content .title p {
     font-size: 15px;
     color: grey;
 }
 
-.main-2 .news h3{
+.main-2 .news h3 {
     width: 480px;
     margin-top: 15px;
     cursor: pointer;
 }
 
-.views-more{
+.views-more {
     text-align: center;
     font-size: 20px;
     margin-top: 20px;
 }
 
-.views-more a{
+.views-more a {
     text-decoration: none;
 }
 
-.views-more a:hover{
+.views-more a:hover {
     background-color: #940202;
     border-radius: 5px;
     padding: 5px;
@@ -218,48 +212,48 @@ h1{
 }
 
 
-.main-3{
+.main-3 {
     background-color: #041e36;
     color: white;
     height: 570px;
     padding-top: 20px;
 }
 
-.main-3-content{
+.main-3-content {
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
 }
 
-.game-list{
+.game-list {
     /* border: 2px solid white; */
     width: 350px;
 }
 
-.game-list-top{
+.game-list-top {
     display: flex;
     justify-content: space-between;
 }
 
-.game-list-top button{
+.game-list-top button {
     background-color: transparent;
     border: 1px solid white;
     border-radius: 5px;
     padding: 5px;
 }
 
-.game-list-top button:hover{
+.game-list-top button:hover {
     background-color: #940202;
     color: white;
     transition: 0.5s;
     cursor: pointer;
 }
 
-.game-list-bottom{
+.game-list-bottom {
     margin-top: 30px;
 }
 
-.game{
+.game {
     display: flex;
     justify-content: start;
     width: 340px;
@@ -270,24 +264,24 @@ h1{
     border-radius: 10px;
 }
 
-.game-img img{
+.game-img img {
     width: 150px;
     height: 100px;
     border-radius: 5px;
 }
 
-.game-img img:hover{
+.game-img img:hover {
     background-color: black;
     opacity: 30%;
     transition: 0.5s;
     cursor: pointer;
 }
 
-.game-content{
+.game-content {
     margin: 10px;
 }
 
-.game-content button{
+.game-content button {
     border: 1px solid white;
     border-radius: 5px;
     background-color: transparent;
@@ -296,67 +290,67 @@ h1{
     margin-top: 25px;
 }
 
-.game-content button:hover{
+.game-content button:hover {
     background-color: white;
     color: black;
     transition: 0.5s;
     cursor: pointer;
 }
 
-.game-content h4{
+.game-content h4 {
     cursor: pointer;
 }
 
-.main-4{
+.main-4 {
     background-color: #041e36;
     height: 500px;
     color: white;
 }
 
-.about{
+.about {
     padding: 0px 50px 0px 50px;
 }
 
-.about h2{
+.about h2 {
     margin-bottom: 15px;
 }
 
-.about h3{
+.about h3 {
     margin-bottom: 10px;
 }
 
-.about p{
+.about p {
     margin-bottom: 10px;
     color: lightgrey;
 }
 
-.about hr{
+.about hr {
     margin-bottom: 10px;
 }
 
-.contact{
+.contact {
     padding: 0px 50px 0px 50px;
 }
 
-.contact h2{
+.contact h2 {
     margin-bottom: 15px;
 }
 
-.contact h4{
+.contact h4 {
     margin-bottom: 10px;
 }
 
-.main-5{
+.main-5 {
     background-color: #041e36;
-    height: 655px;
+    height: 700px;
     color: white;
 }
 
-.main-5 h1{
+.main-5 h1 {
     margin-bottom: -20px;
 }
 
-.faq{
+.faq {
     padding: 30px;
     margin: 100px;
     border: 1px solid white;
@@ -364,46 +358,50 @@ h1{
 }
 
 
-.faq-content details{
+.faq-content details {
     margin-bottom: 10px;
 }
 
-.faq-content summary{
+.faq-content summary {
     margin-bottom: 10px;
 }
 
-.faq hr{
+.faq-content summary:hover {
+    cursor: pointer;
+}
+
+.faq hr {
     margin-bottom: 20px;
 }
 
-.footer{
+.footer {
     display: flex;
     background-color: #021220;
     padding: 20px;
     font-size: 20px;
 }
 
-.footer-logo img{
+.footer-logo img {
     width: 300px;
     margin-top: -120px;
     margin-left: -50px;
 }
 
-.footer-icon{
+.footer-icon {
     font-size: 20px;
 }
 
-.footer-icon ul{
+.footer-icon ul {
     font-size: 30px;
     display: flex;
     list-style: none;
 }
 
-.footer-icon ul li{
+.footer-icon ul li {
     margin-right: 20px;
 }
 
-.footer-link ul{
+.footer-link ul {
     display: flex;
     list-style: none;
     justify-content: left;
@@ -411,15 +409,12 @@ h1{
     margin-top: 30px;
 }
 
-.footer-link ul li a{
+.footer-link ul li a {
     text-decoration: none;
 }
 
-.footer-copyright{
+.footer-copyright {
     width: 800px;
     margin-top: 30px;
     font-size: 15px;
 }
-
-
-
