@@ -1,0 +1,37 @@
+1. link logo sosmed di footer
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+2. link animation
+
+main1
+https://www.youtube.com/embed/_IzOqfrLc0o
+
+main4
+https://www.youtube.com/embed/BhlxX4Fylds
+
+
+3. link animation
+
+-tarok di head
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+-setelah div footer
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+  <script> 
+    AOS.init(); 
+  </script>
+
+
+-tarok di container yang akan pakai animation
+
+data-aos="fade-up" 
+    data-aos-duration="1000"> 
+
+
+
+
